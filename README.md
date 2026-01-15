@@ -1,1 +1,1 @@
-# PSI-L2-4B-Pa-ka-ski
+# PSI-L2-4B-Palkanski
