@@ -40,3 +40,82 @@ button {
 button:hover {
     background-color: #ff1f1f;
 }
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f0f1a, #1f1f3a);
+    color: #eaeaea;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #181828;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0;
+    color: #ff4655;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #aaa;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff7a7a;
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#lang {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social a {
+    color: #00f2ea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4655;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1f3d;
+}

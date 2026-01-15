@@ -1,4 +1,9 @@
-function changeText() {
+function upgrade() {
     const lang = document.getElementById("lang");
-    lang.textContent = "Python (bo jest głupio prosty 😎)";
+    const views = document.getElementById("views");
+
+    lang.textContent = "Python (bo jest absurdalnie prosty 😄)";
+    views.textContent = "ponad 100 000";
+
+    alert("CV zostało ulepszone 🚀");
 }

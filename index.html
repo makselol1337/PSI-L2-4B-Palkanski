@@ -7,21 +7,38 @@
 </head>
 <body>
 
-    <div class="card">
-        <h1 id="name">Maks Pałkański</h1>
+    <div class="container">
+        <header>
+            <h1>Maks Pałkański</h1>
+            <p class="subtitle">Gracz • Montażysta • Python enjoyer</p>
+        </header>
 
-        <p><strong>Hobby:</strong></p>
-        <ul>
-            <li>Granie w Valorant</li>
-            <li>Edytowanie filmów z Valoranta</li>
-        </ul>
+        <section>
+            <h2>O mnie</h2>
+            <p>
+                Interesuję się graniem w Valoranta oraz edytowaniem filmów z rozgrywki.
+                Ostatnio jeden z moich filmów osiągnął <span id="views">100 000</span> wyświetleń.
+            </p>
+        </section>
 
-        <p>
-            <strong>Ulubiony język programowania:</strong>
-            <span id="lang">Python</span>
-        </p>
+        <section>
+            <h2>Hobby</h2>
+            <ul>
+                <li>Granie w Valorant</li>
+                <li>Edytowanie filmów (Valorant)</li>
+            </ul>
+        </section>
 
-        <button onclick="changeText()">Kliknij mnie</button>
+        <section>
+            <h2>Ulubiony język</h2>
+            <p id="lang">Python</p>
+        </section>
+
+        <section class="social">
+            <a href="https://tiktok.com/@demxn.vlr" target="_blank">🎵 TikTok: @demxn.vlr</a>
+        </section>
+
+        <button onclick="upgrade()">Ulepsz CV</button>
     </div>
 
     <script src="main.js"></script>
